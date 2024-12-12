@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Předpolí</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="css/style.css" type="text/css" rel="stylesheet" />
+        <link href="css/scrollbar.css" type="text/css" rel="stylesheet" />
+        
+    </head>
+    <body>
+    <section class="layout-holder">
+    <div class="layout set-height">
+      <header>
+        <a href="#" onclick="openPage('homepage')"><img class="logo" src="images/logo.jpg"></a>
+
+        <a href="#" class="menu-toggle" onclick="toggleMenu()"><img src="images/menu.svg"></a>
+      </header>
+          <section class="layout-inner">
+            <nav class="main-nav">
+              <ul>
+                <li class="nav-item-1"><a class="set-height" href="#" onclick="openPage('history')"><span class="text-1">HISTORIE</span> <span class="text-2">Od 14. století dodnes</span><span class="text-3"></span></a></li>
+                <li class="nav-item-2"><a class="set-height" href="#" onclick="openPage('present')"><span class="text-1">SOUČASNÝ STAV</span> <span class="text-2">Jak vypadá předpolí nyní</span><span class="text-3"></span></a></li>
+                <li class="nav-item-3"><a class="set-height" href="#" onclick="openPage('visions')"><span class="text-1">PŘEDCHOZÍ NÁVRHY</span> <span class="text-2">Předpolí roku 2025</span><span class="text-3"></span></a></li>
+                <li class="nav-item-4"><a class="set-height" href="#" onclick="openPage('sugg')"><span class="text-1">ŘEŠENÍ SITUACE</span> <span class="text-2">Hlavní cíl: revitalizace</span><span class="text-3"></span></a></li>
+                <li class="last">
+                <nav class="footer-nav">
+                  <ul>
+                    <li><a href="#" class="news" onclick="openPage('news')">Aktuality</a></li>
+                    <li><a href="#" class="faq" onclick="openPage('faq')">Často kladené dotazy</a></li>
+                    <li><a href="#" class="contact" onclick="openPage('contact')">Kontakt</a></li>
+                  </ul>
+                </nav>
+                </li>
+              </ul>
+            </nav>
+
+            <section class="page homepage open set-height mCustomScrollbar">
+            <div class="scroll-set-height"></div> <!-- scrollbar needed -->
+            <main class="set-min-height">
+              <div class="page-inner">
+                <h1 class="main">VSTUPNÍ BRÁNA<br>
+                  DO CENTRA PRAHY</h1>
+                  <div class="perex">
+                    Představujeme vám projekt, který vdechne nuselskému předpolí život a metropolitní charakter, jaký si brána do centra Prahy zaslouží.
+                  </div>
+                  <a href="#" class="btn" onclick="openPage('history')">ZAHÁJIT PROHLÍDKU</a>
+                  <div class="home-news">
+                    
+                    <a href="#" class="item" onclick="openPage('news');">27. 06. 17 &nbsp; I &nbsp; Tady by měl být náhled poslední aktuality, který když bude delší než to, co se vejde sem na jeden řádek, bude vytečkovaný trojtečkou a  na hl...</a>
+                    <a href="#" class="all" onclick="openPage('news');">všechny aktuality</a>
+                  </div>
+                  </div>
+            </main>
+            </section> <!-- homepage -->
+
+            <section class="page history set-height mCustomScrollbar">
+            <div class="scroll-set-height"></div> <!-- scrollbar needed -->
+            <main class="set-min-height">
+                <div class="page-inner">
+                <h1 class="main">Předpolí dříve</h1>
+                  <div class="perex">
+                 
+                    Nuselské předpolí bylo v minulosti vždy součástí městské zástavby. Až do 70. let zde stála rozlehlá dětská nemocnice, která byla stržena v závěrečné fázi stavby Nuselského mostu.
+                  </div>
+                  <a href="#" class="btn" onclick="openAside('history')">VÍCE O HISTORII PŘEDPOLÍ</a>
+                  <nav class="subnav">
+                    <ul>
+                      <li class="nav-item-1"><a class="active" href="#" onclick="openPage('history')"><span class="text-1">HISTORIE</span> <span class="text-2">Od 14. století dodnes</span></a></li>
+                <li class="nav-item-2"><a href="#" onclick="openPage('present')"><span class="text-1">SOUČASNÝ STAV</span> <span class="text-2">Jak vypadá předpolí nyní</span></a></li>
+                <li class="nav-item-3"><a href="#" onclick="openPage('visions')"><span class="text-1">PŘEDCHOZÍ NÁVRHY</span> <span class="text-2">Předpolí roku 2025</span></a></li>
+                <li class="nav-item-4"><a href="#" onclick="openPage('sugg')"><span class="text-1">ŘEŠENÍ SITUACE</span> <span class="text-2">Hlavní cíl: revitalizace</span></a></li>
+                    </ul>
+                  </nav>
+                  </div>
+            </main>
+            </section> <!-- history page -->
+
+            <section class="page present set-height mCustomScrollbar">
+            <div class="scroll-set-height"></div> <!-- scrollbar needed -->
+            <main class="set-min-height">
+                <div class="page-inner">
+                <h1>Nuselské předpolí dnes</h1>
+                  <div class="perex">
+              
+                    Máme vizi, jak revitalizovat oblast v okolí magistrály při příjezdu do Prahy 2 po Nuselském mostě. V současnosti má místo čistě „dopravní“ charakter a postrádá městský život.
+                  </div>
+                  <a href="#" class="btn" onclick="openAside('present')">VÍCE O SOUČASNÉM STAVU</a>
+                  <nav class="subnav">
+                    <ul>
+                      <li class="nav-item-1"><a href="#" onclick="openPage('history')"><span class="text-1">HISTORIE</span> <span class="text-2">Od 14. století dodnes</span></a></li>
+                <li class="nav-item-2"><a class="active" href="#" onclick="openPage('present')"><span class="text-1">SOUČASNÝ STAV</span> <span class="text-2">Jak vypadá předpolí nyní</span></a></li>
+                <li class="nav-item-3"><a href="#" onclick="openPage('visions')"><span class="text-1">PŘEDCHOZÍ NÁVRHY</span> <span class="text-2">Předpolí roku 2025</span></a></li>
+                <li class="nav-item-4"><a href="#" onclick="openPage('sugg')"><span class="text-1">ŘEŠENÍ SITUACE</span> <span class="text-2">Hlavní cíl: revitalizace</span></a></li>
+                    </ul>
+                  </nav>
+                  </div>
+            </main>
+            </section> <!-- present page -->
+
+            <section class="page news scroll">
+
+            <main class="set-min-height">
+                <div class="page-inner">
+                <h1 class="main">Aktuality</h1>
+                  <ul class="news-list">
+                    <li><div class="toggle" rel="1" onclick="openAside('news-item-1')">Nadpis pro první aktualitu</div>
+                      <div class="annotation">
+                      Vstupní branou do širšího centra Prahy při příjezdu po Nuselském mostu je
+park Boženy Němcové a jeho okolí. Toto předpolí Nuselského nmostu tvoří
+malá plocha neudržované Zeleně a parkoviště.
+                      <div class="date">27.06.2017</div>
+                      </div>
+                    </li>
+                    <li><div class="toggle" onclick="openAside('news-item-2')">Nadpis pro druhou aktualitu</div>
+                      <div class="annotation">
+                      Vstupní branou do širšího centra Prahy při příjezdu po Nuselském mostu je
+park Boženy Němcové a jeho okolí. Toto předpolí Nuselského nmostu tvoří
+malá plocha neudržované Zeleně a parkoviště.
+                      <div class="date">27.06.2017</div>
+                      </div>
+                    </li>
+                    <li><div class="toggle" onclick="openAside('news-item-3')">Nadpis pro třetí aktualitu</div>
+                      <div class="annotation">
+                      Vstupní branou do širšího centra Prahy při příjezdu po Nuselském mostu je
+park Boženy Němcové a jeho okolí. Toto předpolí Nuselského nmostu tvoří
+malá plocha neudržované Zeleně a parkoviště.
+                      <div class="date">27.06.2017</div>
+                      </div>
+                    </li>
+                    <li><div class="toggle" rel="1" onclick="openAside('news-item-1')">Nadpis pro první aktualitu</div>
+                      <div class="annotation">
+                      Vstupní branou do širšího centra Prahy při příjezdu po Nuselském mostu je
+park Boženy Němcové a jeho okolí. Toto předpolí Nuselského nmostu tvoří
+malá plocha neudržované Zeleně a parkoviště.
+                      <div class="date">27.06.2017</div>
+                      </div>
+                    </li>
+                    <li><div class="toggle" onclick="openAside('news-item-2')">Nadpis pro druhou aktualitu</div>
+                      <div class="annotation">
+                      Vstupní branou do širšího centra Prahy při příjezdu po Nuselském mostu je
+park Boženy Němcové a jeho okolí. Toto předpolí Nuselského nmostu tvoří
+malá plocha neudržované Zeleně a parkoviště.
+                      <div class="date">27.06.2017</div>
+                      </div>
+                    </li>
+                    <li><div class="toggle" onclick="openAside('news-item-3')">Nadpis pro třetí aktualitu</div>
+                      <div class="annotation">
+                      Vstupní branou do širšího centra Prahy při příjezdu po Nuselském mostu je
+park Boženy Němcové a jeho okolí. Toto předpolí Nuselského nmostu tvoří
+malá plocha neudržované Zeleně a parkoviště.
+                      <div class="date">27.06.2017</div>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
+            </main>
+            
+            </section> <!-- news page -->
+
+
+            
+
+            <section class="page sugg scroll bordered">
+          
+            <main class="set-min-height">
+                <div class="page-inner">
+                <h1>ŘEŠENÍ SITUACE</h1>
+                  <div class="perex">
+         
+                   Chceme revitalizovat celou oblast předpolí Nuselského
+                    mostu, dát mu logickou urbanistickou koncepci a vrátit
+                    oblasti více života.
+                  </div>
+                  <a href="#sugg-more" class="btn slide">VÍCE O NAŠEM ŘEŠENÍ</a>
+                  <nav class="subnav">
+                    <ul>
+                      <li class="nav-item-1"><a href="#" onclick="openPage('history')"><span class="text-1">HISTORIE</span> <span class="text-2">Od 14. století dodnes</span></a></li>
+                <li class="nav-item-2"><a href="#" onclick="openPage('present')"><span class="text-1">SOUČASNÝ STAV</span> <span class="text-2">Jak vypadá předpolí nyní</span></a></li>
+                <li class="nav-item-3"><a href="#" onclick="openPage('visions')"><span class="text-1">PŘEDCHOZÍ NÁVRHY</span> <span class="text-2">Předpolí roku 2025</span></a></li>
+                <li class="nav-item-4"><a class="active" href="#" onclick="openPage('sugg')"><span class="text-1">ŘEŠENÍ SITUACE</span> <span class="text-2">Hlavní cíl: revitalizace</span></a></li>
+                    </ul>
+                  </nav>
+                  </div>
+            </main>
+            <article id="sugg-more">
+              <div class="left">
+                <p><big>Pohled na Staré Město, Nové Město, Malou Stranu
+                a Hradčany z bastionu sv. Máří Magdalény v místě
+                dnešní Kramářovy vily. 1884.</big></p>
+
+                <p>Panorama, diorama, pleorama nebo kosmorama jsou
+                působivé názvy obrazových atrakcí, které k lidem naší doby
+                hovoří již poněkud nesrozumitelným jazykem 18. a 19. století.
+                Spojuje se v nich zvídavost exaktní vědy s až romantickou
+                touhou zhlédnout cizokrajná města a krajiny ve velkorysých
+                iluzivních výstavních projektech, aniž by bylo nutné cestovat
+                stovky nebo tisíce kilometrů daleko. Původem většinou z Velké
+                Británie a Francie se rozšířila do německých zemí, do
+                Rakouského císařství a dále na východ. Podle náročnosti
+                provedení se dělí do několika kategorií od náročného kruhového
+                panoramatu až po menší podniky typu kosmoramatu,
+                protože ne každému podnikateli se vyplatilo investovat do
+                stavby nákladné kruhové arény. V Rakouském císařství taková
+                stála např. pouze ve Vídni. Naopak s kosmoramatem bylo
+                možné bez větších nákladů cestovat po celém světě. Do
+                Rakouského císařství a Čech začali putovat kočující umělci na
+                začátku 19. století. Prvním významnějším podnikatelských
+                záměrem byla akce Williama Bartona, pro něhož rozměrné
+                panorama Vídně vytvořili Lorenz Janscha a Karel Postl v roce
+                803. Mnohdy byly vystavovány a inscenovány dobové aktuality
+                jako výbuch Vesuvu anebo požár Moskvy s Napoleonovým
+                útěkem.</p>
+
+                <p>Prahu během 18. a 19. století navštívilo množství slavných,
+                kteří odjížděli okouzleni. Někteří její krásu srovnávali s Římem,
+                jiní vzpomínali na život v ní. V tomto ohledu nelze nezmínit
+                půvabnou knihu Vincyho Schwarze Praha jaká je, která
+                obsahuje nadšené reflexe Hanse Christiana Andersena, René
+                Chateaubrianda a dalších významných osobností tehdejšího
+                světa. Praha pro učence představovala tajemné město
+                Amazonek, Jana Žižky z Trocnova, Golema nebo Albrechta z
+                Valdštejna. Její věhlas daleko přesahoval hranice českého
+                království a samozřejmě poutala i pozornost těch, kteří se do
+                ní nikdy nedostali.</p>
+
+                <h3>kino minulosti</h3>
+
+                <p>V době, kdy neexistovaly nám známé informační zdroje,
+                bylo zcela běžné „chodit do panorámy“. Po zaplacení několika
+                krejcarů byl návštěvník uveden sluhou do dřevěné boudy, kde
+                mohl spatřit při světle svíček několikametrové veduty Paříže,
+                Říma nebo Prahy. V 19. století, kdy neexistovalo kino a lidé
+                nemohli cestovat, panorama představovalo ideální způsob, jak
+                se podívat do exotických krajin, aniž by bylo nutné cestovat
+                stovky nebo tisíce kilometrů daleko. Iluze byla dokonalá. Divák
+                byl postaven před kompozici, která jej pohlcovala za pomoci
+                perspektivních zkratek, a která mohla být prohloubena díky
+                různým optickým klamům. Vytvořit panorama bylo skutečným
+                uměním a zároveň vědou. Existovalo několik druhů, jež se lišily
+                podle náročnosti provedení. Kvůli některým byly stavěny
+                specializované kruhové rotundy s vyvýšenými pódii. Většina
+                těchto efemérních děl se do dnešní doby nedochovala. Po
+                upotřebení totiž byla kvůli velikosti a neskladnosti často
+                zničena. Ačkoliv autory byli dnes většinou naprosto neznámí
+                cestující malíři, putující od města k městu, našli se mezi nimi i
+                umělci specialisté. Například v Praze působící Antonio Sacchetti,
+                který vytvořil dnes nejznámější v Čechách dochované panorama
+                Prahy, nalézající se na podestě schodiště Muzea hlavního města
+                Prahy. Podobně známé je panorama bitvy u Lipan, vytvořeno
+                skupinou umělců pod vedením Luďka Marolda. Do dnešních
+                dnů se bohužel dochovalo minimum těchto děl. Objev každého
+                dalšího dochovaného je poutavým dokladem o propojení
+                zábavy a umění v 19. století.</p>
+              </div>
+              <div class="right">
+                <p><img src="images/image.jpg" class="img"></p>
+                <p></p>
+                <p><b>Technické parametry:</b><br>
+                Kvaš, papír, 95 x 350 cm, signováno v ploše na severním
+                průčelí dnes neexistujících kasáren pod Bruskou „C.
+                Thieme 1844“</p>
+
+                <p><b>Literatura:</b><br>
+                Marie-Louise von Plessen (ed.): Sehnsucht, Das Panorama
+                als Massenunterhaltungen des 19. Jahrhunderts, Bonn
+                1993, s. 47 (obr.).</p>
+
+                <p><b>Vystaveno:</b><br>
+                Sehnsucht, Das Panorama als Massenunterhaltungen des
+                19. Jahrhunderts v Kunst- und Ausstellungshalle der
+                Bundesrepublik Deutschland, Bonn, 28. 3. – 10. 10. 1993;
+                Opus magnum, Galerie výtvarného umění v Chebu, 2015.</p>
+
+                <p><b>Detaily pro nákup:</b><br>
+                Cena díla: 3. 000. 000 Kč<br>
+                Způsob prodeje: Uzavřená aukce</p>
+
+                <p><br><a href="#" class="btn btn-big">CHCI PRAVIDELNÉ INFORMACE</a></p>
+                <p></p>
+                <p><img src="images/image.jpg" class="img"><span class="desc-img">Popisek k obrázku</span></p>
+              </div>
+            </article>
+            </section> <!-- sugg page -->
+
+            <section class="page visions set-height mCustomScrollbar">
+            <div class="scroll-set-height"></div> <!-- scrollbar needed -->
+            <main class="set-min-height">
+                <a href="#" class="gallery-plus gp-1" onclick="openPage('gallery');gallerySet(1);"></a>
+                <div class="gallery-plus-item gp-2"><a href="#" class="" onclick="openPage('gallery');gallerySet(2);"></a></div>
+                <div class="gallery-plus-item gp-3"><a href="#" class="" onclick="openPage('gallery');gallerySet(3);"></a></div>
+                <div class="page-inner">
+                <h1>PŘEDPOLÍ ZÍTŘKA</h1>
+                  <div class="perex">
+
+                   Vytvoříme důstojnou bránu při příjezdu na Prahu 2. Vrátíme do oblasti přirozený denní ruch a život. Přibude zeleně i možností, jak se v lokalitě pohodlně pohybovat.
+                  </div>
+                  <a href="#" class="btn" onclick="openAside('visions')">VÍCE O NAŠÍ VIZI</a>
+                  <nav class="subnav">
+                    <ul>
+                      <li class="nav-item-1"><a href="#" onclick="openPage('history')"><span class="text-1">HISTORIE</span> <span class="text-2">Od 14. století dodnes</span></a></li>
+                <li class="nav-item-2"><a href="#" onclick="openPage('present')"><span class="text-1">SOUČASNÝ STAV</span> <span class="text-2">Jak vypadá předpolí nyní</span></a></li>
+                <li class="nav-item-3"><a class="active" href="#" onclick="openPage('visions')"><span class="text-1">PŘEDCHOZÍ NÁVRHY</span> <span class="text-2">Předpolí roku 2025</span></a></li>
+                <li class="nav-item-4"><a href="#" onclick="openPage('sugg')"><span class="text-1">ŘEŠENÍ SITUACE</span> <span class="text-2">Hlavní cíl: revitalizace</span></a></li>
+                    </ul>
+                  </nav>
+                  </div>
+            </main>
+            </section> <!-- visions page -->
+
+            <section class="page contact set-height mCustomScrollbar">
+            <div class="scroll-set-height"></div> <!-- scrollbar needed -->
+            <main class="set-min-height">
+                <div class="page-inner">
+                <h1>KONTAKT</h1>
+                  <div class="perex">
+                    <h2>Kontakt pro veřejnost</h2>
+                    <p><a href="mailto:info@predpoli.cz">info@predpoli.cz</a></p>
+                    <h2>Kontakt pro média</h2>
+                    <p>Šimon Slavík<br>
+                    AMI Communications<br>
+                    <a href="mailto:simon.slavik@amic.cz">simon.slavik@amic.cz</a><br>
+                    724 464 953</p>
+
+
+                    <h2 class="margined">Kdo jsme?</h2>
+                    <p>Naše společnost Jizera Invest vlastní dvě budovy v ulici Boženy Němcové, přirozeně nás tedy zajímá situace okolí, která je značně neutěšená. Po zjištění, že žádný aktuální plán na revitalizaci lokality neexistuje, rozhodli jsme se předložit návrh vlastní. Rádi bychom z předpolí Nuselského mostu vytvořili reprezentativnější prostor, příjemnější místo pro život na Praze 2 a důstojnou bránu vstupu do centra hlavního města.</p>
+
+                  </div>
+                  <a href="#" class="btn" onclick="openPage('faq')">ČASTO KLADENÉ DOTAZY</a>
+                  </div>
+            </main>
+            </section> <!-- contact page -->
+
+            <section class="page faq scroll">
+
+            <main class="set-min-height">
+                <div class="page-inner">
+                <h1 class="main">ČASTO KLADENÉ DOTAZY</h1>
+                  <ul class="news-list">
+                    <li><div class="toggle" rel="1" onclick="openAside('faq-item-1')">Proč má dojít k revitalizaci nuselského předpolí?</div>
+                    </li>
+                    <li><div class="toggle" onclick="openAside('faq-item-2')">Co je cílem projektu?</div>
+                    </li>
+                    <li><div class="toggle" onclick="openAside('faq-item-3')">Jak je projekt stavby koncipován?</div>
+                    </li>
+                    <li><div class="toggle" onclick="openAside('faq-item-4')">Čím bude stavba užitečná lokalitě a lidem žijícím v okolí? </div>
+                    </li>
+                    <li><div class="toggle" onclick="openAside('faq-item-5')">Co se bude v nové budově nacházet? </div>
+                    </li>
+                    <li><div class="toggle" onclick="openAside('faq-item-6')">Kdo bude budovu navrhovat? </div>
+                    </li>
+
+                  </ul>
+                  <div class="clear"></div>
+                  <a href="#" class="btn" onclick="openPage('contact')">KONTAKT</a>
+                  </div>
+            </main>
+            </section> <!-- faq page -->
+
+            <section class="page gallery set-height mCustomScrollbar">
+            <div class="scroll-set-height"></div> <!-- scrollbar needed -->
+            <main class="set-min-height">
+              <div class="gallery-navig">
+                <a href="#" class="close" onclick="openPage('visions')"></a>
+                <a href="#" class="next" onclick="galleryNext()"></a>
+                <div class="status"><div class="current">1</div><div class="total">3</div></div>
+                <a href="#" class="prev disable" onclick="galleryPrev()"></a>
+              </div>
+              <div class="page-inner">
+                <div class="gallery-holder">
+                <div class="gallery-item active" rel="1"><img src="images/vision-1.jpg"></div>
+                <div class="gallery-item" rel="2"><img src="images/vision-2.jpg"></div>
+                <div class="gallery-item" rel="3"><img src="images/vision-3.jpg"></div>
+                </div>
+              </div>
+            </main>
+            </section> <!-- gallery page -->
+
+            <section class="page gallery-present set-height mCustomScrollbar">
+            <div class="scroll-set-height"></div> <!-- scrollbar needed -->
+            <main class="set-min-height">
+              <div class="gallery-navig">
+                <a href="#" class="close" onclick="openPage('present')"></a>
+                <a href="#" class="next" onclick="galleryNext2()"></a>
+                <div class="status"><div class="current">1</div><div class="total">4</div></div>
+                <a href="#" class="prev disable" onclick="galleryPrev2()"></a>
+              </div>
+              <div class="page-inner">
+                <div class="gallery-holder">
+                <div class="gallery-item active" rel="1"><img src="images/present-1.jpg"></div>
+                <div class="gallery-item" rel="2"><img src="images/present-2.jpg"></div>
+                <div class="gallery-item" rel="3"><img src="images/present-3.jpg"></div>
+                <div class="gallery-item" rel="4"><img src="images/present-4.jpg"></div>
+                </div>
+              </div>
+            </main>
+            </section> <!-- gallery page -->
+
+
+          </section>
+
+      <section class="line l1"></section>
+      <section class="line l2"></section>
+
+      <footer>
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#" class="news" onclick="openPage('news')">Aktuality</a></li>
+            <li><a href="#" class="faq" onclick="openPage('faq')">Často kladené dotazy</a></li>
+            <li><a href="#" class="contact" onclick="openPage('contact')">Kontakt</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div> <!-- layout -->
+
+    <aside class="set-height present">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('present')"><span>VÍCE O SOUČASNÉM STAVU</span></a>
+      <a href="#" class="aside-page-toggle next" onclick="openPage('visions');openAside('visions');"></a>
+      <a href="#" class="aside-page-toggle prev" onclick="openPage('history');openAside('history');"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1 class="main">Současný stav</h1>
+      <div class="text">
+      <p><cite>Vstupní branou do širšího centra Prahy při příjezdu po Nuselském mostu je park Boženy Němcové a jeho okolí. Toto předpolí Nuselského mostu tvoří malá plocha neudržované zeleně a parkoviště. Okolí není dobře urbanisticky řešeno – neumožňuje příjemný a bezbariérový pohyb, i proto se v lokalitě vyskytuje jen málo chodců a je zde nižší občanská vybavenost.</cite></p>
+
+        <p>I v současnosti ale okolí nabízí mnoho zajímavostí, jako je barokní kostel Nanebevzetí Panny Marie a svatého Karla Velikého, bývalá klášterní zahrada, městské hradby či Muzeum Policie České republiky. Lokalita skýtá výhled na celé Nuselské údolí, nedaleko se nachází v klidné čtvrti několik fakult Univerzity Karlovy a přilehlý park Folimanka rámuje okolí magistrály zelení.</p>
+
+      
+        <p><a href="#" class="goto-gallery" onclick="openPage('gallery-present')">PROHLÉDNOUT CELOU GALERII</a></p>
+        </div>
+        </div>
+    </aside> <!-- present aside -->
+
+    <aside class="set-height history">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('history')"><span>VÍCE O HISTORII PŘEDPOLÍ</span></a>
+      <a href="#" class="aside-page-toggle next" onclick="openPage('present');openAside('present');"></a>
+      <a href="#" class="aside-page-toggle prev" onclick="openPage('sugg');openAside('sugg');"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1 class="main">Historie místa</h1>
+      <div class="text">
+      <p><cite>Ve 14. století se v těchto místech postupně budují gotické městské hradby. V období baroka se opevnění ještě posiluje. V 19. století zde namísto hradeb začíná vznikat městská zástavba. Mezi lety 1898–1902 se na parcele dnešního předpolí, v příhodné vzdálenosti od zemského sirotčince a porodnice, buduje rozlehlý areál české dětské nemocnice. Ta se nad Nuselským údolím tyčí ještě během první fáze stavby Nuselského mostu. Zbourána je mezi lety 1970–1971. Vzniklou parcelu protnou oba tahy rušné magistrály a uprostřed zbyde nevyužité prostranství. </cite></p>
+
+
+
+        
+        </div>
+        </div>
+    </aside> <!-- history aside -->
+
+    <aside class="set-height visions gallery">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('visions')"><span>VÍCE O NAŠÍ VIZI</span></a>
+      <a href="#" class="aside-page-toggle next" onclick="openPage('sugg');openAside('sugg');"></a>
+      <a href="#" class="aside-page-toggle prev" onclick="openPage('present');openAside('present');"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1 class="main">Vize</h1>
+      <div class="text">
+      <p><cite>Chceme revitalizovat celou oblast předpolí Nuselského mostu, dát mu logickou urbanistickou koncepci a vrátit oblasti více života.</cite></p>
+
+        <p>Realizace celého projektu bude mít pozitivní dopad na kvalitu života v sousedství i na rozvoj občanského života v dané lokalitě. O konkrétní podobě závěrečného projektu jsme připraveni diskutovat s městskou částí, místními obyvateli, odborníky i veřejností. </p>
+
+        <p><a href="#" class="goto-gallery" onclick="openPage('gallery')">PROHLÉDNOUT CELOU GALERII</a></p>
+        </div>
+        </div>
+    </aside> <!-- history aside -->
+
+    <!-- faq items -->
+      <aside class="set-height faq-item faq-item-1">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('faq-item-1')"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1>Proč má dojít k revitalizaci nuselského předpolí?</h1>
+      <div class="text">
+      <p>Jedná se o „hluché prostranství“, které vzniklo demolicí jiných objektů při stavbě Nuselského mostu a tubusu metra. Pohybuje se v něm málo lidí, přestože v okolí sídlí vysoké školy, muzeum a kostel s klášterní zahradou. Řešením pro lokalitu je, vrátit jí život, tedy přivést sem větší množství lidí a udělat tím místo nejen živější, ale i bezpečnější. Vzhledem k hlukovým limitům není oblast vhodná k bydlení, jediným řešením je tak komerční využití.</p>
+
+
+        </div>
+        </div>
+    </aside> <!-- f-i aside -->
+<!-- faq items -->
+      <aside class="set-height faq-item faq-item-3">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('faq-item-3')"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1>Jak je projekt stavby koncipován?</h1>
+      <div class="text">
+      <p>Náš návrh počítá s využitím a rekonstrukcí dvou ze tří budov, které vlastníme a které se nachází v prostoru za budoucí stavbou. Prostřední z nich bude částečně sloužit i jako zázemí pro novou administrativní budovu. Ta má vzniknout na místě současného parkoviště v ulici Boženy Němcové. Věříme, že i majitelé a obyvatelé poslední budovy v tomto bloku ocení celkový přínos projektu pro lokalitu. Nová stavba svými rozměry nemá přesahovat „předpolí“, výhled na jednu stranu údolí tudíž zůstane nezměněn, navíc se výrazně rozroste zeleň v okolí a spolu s ní i další komfort pro zdejší obyvatele a chodce.</p>
+        </div>
+        </div>
+    </aside> <!-- f-i aside -->
+    <!-- faq items -->
+      <aside class="set-height faq-item faq-item-2">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('faq-item-2')"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1>Co je cílem projektu?</h1>
+      <div class="text">
+      <p>Cílem je vrátit lokalitě život, ruch velkoměsta a potlačit ryze „dopravní“ charakter místa. Jedná se o plochu, která v minulosti byla vždy součástí zástavby nad Nuselským údolím a nyní zůstává prázdná. Nově vzniklá budova by měla zapadat do současného panorámatu a být zároveň důstojnější branou při příjezdu na Nové Město po nuselské magistrále.</p>
+
+        </div>
+        </div>
+    </aside> <!-- f-i aside -->
+    <!-- faq items -->
+      <aside class="set-height faq-item faq-item-4">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('faq-item-4')"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1>Čím bude stavba užitečná lokalitě a lidem žijícím v okolí?</h1>
+      <div class="text">
+      <p>V současné době může projekt pomoci vyřešit nezastavěnou plochu takzvaného „parku Boženy Němcové“, který se kromě parkoviště nijak nevyužívá, a lidé mají málo důvodů toto místo vyhledávat, či jím procházet. Stavba administrativní budovy pomůže okolním obchodům a podnikům a umožní vznik nových, zvýší bezpečnost lokality tím, že sem přivede více lidí, a vyřeší také některé problémy jako například absenci bezbariérového podchodu, které komplikují život invalidům, rodičům s kočárky nebo cyklistům. Celkově logičtěji řešené možnosti pohybu v této oblasti i větší množství izolační zeleně jistě uvítají všichni, kdo se místem pohybují nebo pohybovat budou. Výrazně se tak navíc zvýší bezpečnost návštěvníků oblasti, ať už z pohledu dopravy či kriminality.</p>
+        </div>
+        </div>
+    </aside> <!-- f-i aside -->
+    <!-- faq items -->
+      <aside class="set-height faq-item faq-item-5">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('faq-item-5')"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1>Co se bude v nové budově nacházet?</h1>
+      <div class="text">
+      <p>Nová budova by měla sloužit jako kancelářská, tudíž do místa přivede lidi a život hlavně během dne. Ve večerních hodinách zůstane oblast klidnou. Součástí bude také veřejně přístupná vyhlídková terasa s výhledem na celé Nuselské údolí.</p>
+        </div>
+        </div>
+    </aside> <!-- f-i aside -->
+    <!-- faq items -->
+      <aside class="set-height faq-item faq-item-6">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('faq-item-6')"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1>Kdo bude budovu navrhovat?</h1>
+      <div class="text">
+      <p>První plán projektu navrhl ateliér Znamení čtyř, který má četné zkušenosti s urbanistickým řešením veřejných prostor a revitalizacemi v městské zástavbě. Projekt dobře ukazuje náš celkový záměr, ale o konečné podobě jsme připraveni diskutovat jak s městskou částí, tak s veřejností.</p>
+        </div>
+        </div>
+    </aside> <!-- f-i aside -->
+
+    <!-- news items -->
+      <aside class="set-height news-item news-item-1">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('news-item-1')"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1>NADPIS PRO PRVNÍ AKTUALITU</h1>
+      <div class="text">
+      <p><cite>Vstupní branou do širšího centra Prahy při příjezdu po Nuselském mostu je
+park Boženy Němcové a jeho okolí. Toto předpolí Nuselského nmostu tvoří
+malá plocha neudržované Zeleně a parkoviště.</cite></p>
+
+        <p>Ve 14. století se v těchto místech postupně budují gotické městské hradby. V
+období baroka se opevnění ještě posiluje. V 19. století zde namísto hradeb začíná
+vznikat městská zástavba. Mezi lety 1898 –1902 se na parcele dnešního
+předpolí, v příhodné vzdálenosti od zemského sirotčince a porodnice, buduje
+rozlehlý areál české dětské nemocnice. Ta se nad Nuselským údolím tyčí ještě
+během první fáze stavby Nuselského mostu.</p>
+
+<p>Zbourána je mezi lety 1970–1971. Vzniklou parcelu protnou oba tahy rušné
+magistrály a uprostřed zbyde nevyužité prostranství.</p>
+
+        
+        </div>
+        </div>
+    </aside> <!-- n-i aside -->
+
+    <aside class="set-height news-item news-item-2">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('news-item-2')"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1>NADPIS PRO druhou AKTUALITU</h1>
+      <div class="text">
+      <p><cite>Vstupní branou do širšího centra Prahy při příjezdu po Nuselském mostu je
+park Boženy Němcové a jeho okolí. Toto předpolí Nuselského nmostu tvoří
+malá plocha neudržované Zeleně a parkoviště.</cite></p>
+
+        <p>Ve 14. století se v těchto místech postupně budují gotické městské hradby. V
+období baroka se opevnění ještě posiluje. V 19. století zde namísto hradeb začíná
+vznikat městská zástavba. Mezi lety 1898 –1902 se na parcele dnešního
+předpolí, v příhodné vzdálenosti od zemského sirotčince a porodnice, buduje
+rozlehlý areál české dětské nemocnice. Ta se nad Nuselským údolím tyčí ještě
+během první fáze stavby Nuselského mostu.</p>
+
+<p>Zbourána je mezi lety 1970–1971. Vzniklou parcelu protnou oba tahy rušné
+magistrály a uprostřed zbyde nevyužité prostranství.</p>
+
+
+        </div>
+        </div>
+    </aside> <!-- n-i aside -->
+
+    <aside class="set-height news-item news-item-3">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('news-item-3')"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1>NADPIS PRO třetí AKTUALITU</h1>
+      <div class="text">
+      <p><cite>Vstupní branou do širšího centra Prahy při příjezdu po Nuselském mostu je
+park Boženy Němcové a jeho okolí. Toto předpolí Nuselského nmostu tvoří
+malá plocha neudržované Zeleně a parkoviště.</cite></p>
+
+        <p>Ve 14. století se v těchto místech postupně budují gotické městské hradby. V
+období baroka se opevnění ještě posiluje. V 19. století zde namísto hradeb začíná
+vznikat městská zástavba. Mezi lety 1898 –1902 se na parcele dnešního
+předpolí, v příhodné vzdálenosti od zemského sirotčince a porodnice, buduje
+rozlehlý areál české dětské nemocnice. Ta se nad Nuselským údolím tyčí ještě
+během první fáze stavby Nuselského mostu.</p>
+
+<p>Zbourána je mezi lety 1970–1971. Vzniklou parcelu protnou oba tahy rušné
+magistrály a uprostřed zbyde nevyužité prostranství.</p>
+
+
+        </div>
+        </div>
+    </aside> <!-- n-i aside -->
+
+    <!-- news items -->
+      <aside class="set-height news-item news-item-4">
+      <a href="#" class="aside-toggle set-height" onclick="openAside('news-item-4')"></a>
+      <div class="inner-set-height mCustomScrollbar">
+      <h1>NADPIS PRO JINOU PRVNÍ AKTUALITU</h1>
+      <div class="text">
+      <p><cite>Vstupní branou do širšího centra Prahy při příjezdu po Nuselském mostu je
+park Boženy Němcové a jeho okolí. Toto předpolí Nuselského nmostu tvoří
+malá plocha neudržované Zeleně a parkoviště.</cite></p>
+
+        <p>Ve 14. století se v těchto místech postupně budují gotické městské hradby. V
+období baroka se opevnění ještě posiluje. V 19. století zde namísto hradeb začíná
+vznikat městská zástavba. Mezi lety 1898 –1902 se na parcele dnešního
+předpolí, v příhodné vzdálenosti od zemského sirotčince a porodnice, buduje
+rozlehlý areál české dětské nemocnice. Ta se nad Nuselským údolím tyčí ještě
+během první fáze stavby Nuselského mostu.</p>
+
+<p>Zbourána je mezi lety 1970–1971. Vzniklou parcelu protnou oba tahy rušné
+magistrály a uprostřed zbyde nevyužité prostranství.</p>
+
+
+        </div>
+        </div>
+    </aside> <!-- n-i aside -->
+
+    </section> <!-- layout holder -->
+
+    <section class="holder"></section>
+    <script src="js/jquery.js"></script>
+    <script src="js/scrollbar.js"></script>
+    <script src="js/js.js"></script>
+    </body>
+</html>
